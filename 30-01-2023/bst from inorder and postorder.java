@@ -1,4 +1,5 @@
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
+class Solution {
+ public TreeNode buildTree(int[] inorder, int[] postorder) {
         HashMap<Integer ,Integer> map = new HashMap<>();
         for(int i = 0 ; i<inorder.length ; i++){
             map.put(inorder[i] , i);
